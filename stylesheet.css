@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(242, 101, 101);
+    margin: 10px;
+    }
+
+li{
+    display: inline-block;
+    height: 25px;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+    color: rgb(62, 3, 37);
+    border-left: 4px solid rgb(222, 199, 149);
+    border-right: 4px solid rgb(222, 199, 149);
+    border-top: 4px solid rgb(144, 86, 137);
+    border-bottom: 4px solid rgb(144, 86, 137);
+    background-color: rgb(234, 178, 228);
+    }
+
+.menu{
+    
+        overflow: hidden;
+       width: 600px;
+        margin: auto;
+    } 
+
+li:hover{
+        background-color: rgb(108, 236, 217);
+        border-left: 4px solid rgb(12, 81, 131);
+        border-right: 4px solid rgb(12, 81, 131);
+        border-top: 4px solid rgb(69, 150, 185);
+        border-bottom: 4px solid rgb(69, 150, 185);
+    }
+
+H1{
+    color: rgb(6, 5, 80);
+    text-align: center;    
+}
+
+Section{
+    color: black;
+    background-color: rgb(241, 71, 71);
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table{
+    border: 5px;
+    width: 800px;
+    text-align: center;
+}
+
+  td{
+    padding: 10px 5px;
+    background-color: rgba(233, 233, 55, 0.708);
+    text-align: center;
+}
+
+
+button{
+    background-color:rgb(245, 167, 167);
+    color:  rgb(241, 71, 71);
+    border-radius: 15px; 
+    border-color: blueviolet;
+    border-width: 5px;
+    display: block;
+    margin: auto;
+   
+}
+
+button:active{
+    background-color:  blueviolet;
+    color: rgb(255, 255, 255);
+    border-radius: 15px; 
+    border-color: rgb(108, 236, 217);
+}    
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+input[type="text"], textarea, button{
+    display: block;
+    margin: 20px 0px;
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+form{
+    border: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+h4, h3{
+    color: rgb(6, 5, 80);
+    text-align: center;
+    background-color:  rgba(233, 233, 55, 0.708)
+}
+
+header, body, footer{
+    padding: 10px;
+}
+
+p{
+    background-color: rgba(234, 178, 228, 0.489)
+}
+
